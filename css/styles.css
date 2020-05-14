@@ -10,6 +10,8 @@ body {
   justify-content: center;
   align-items: center;
   background: rgb(42, 46, 49);
+  color: #4d4f52;
+  font-family: "Roboto";
 }
 .settings-container {
   margin-top: 0;
@@ -39,11 +41,10 @@ body {
   flex-grow: 1;
   background: none;
   border: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .user {
-  color: grey;
   background-color: white;
   display: flex;
   align-items: center;
@@ -60,7 +61,9 @@ body {
 }
 
 .setting-wrap {
-  margin: 50px 0;
+  margin-top: 50px;
+  background-color: white;
+  overflow: hidden;
 }
 
 .settings {
@@ -71,8 +74,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid grey;
+  box-shadow: 54px 1px #cbced1;
   background-color: white;
+  margin-top: 1px;
   padding: 5px;
 }
 
@@ -80,10 +84,13 @@ body {
   flex-grow: 1;
   margin: 0 10px;
   font-size: 1.1rem;
-  color: grey;
   font-weight: normal;
 }
 
+.setting-status {
+  color: #999da1;
+  font-size: 0.9rem;
+}
 .arrow {
   margin: 0 15px;
 }
