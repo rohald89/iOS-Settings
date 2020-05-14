@@ -1,19 +1,89 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-	min-height: 100vh;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: rgb(42, 46, 49);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(42, 46, 49);
 }
 .settings-container {
-	margin-top: 0;
-	width: 320px;
-	min-height: 100vh;
-	background: #DBE0E4;
+  margin-top: 0;
+  width: 320px;
+  min-height: 100vh;
+  background: #dbe0e4;
+}
+
+.header h1 {
+  margin: 20px 10px 0;
+}
+
+.search {
+  background-color: lightgrey;
+  border-radius: 8px;
+  width: 92%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search img {
+  margin: 10px;
+}
+
+.search input {
+  flex-grow: 1;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.user {
+  color: grey;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4px 15px;
+}
+
+.user-settings {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+.username {
+  font-size: 0.8rem;
+}
+
+.setting-wrap {
+  margin: 50px 0;
+}
+
+.settings {
+  font-size: 0.6rem;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  background-color: white;
+  padding: 5px;
+}
+
+.setting-name {
+  flex-grow: 1;
+  margin: 0 10px;
+  font-size: 1.1rem;
+  color: grey;
+  font-weight: normal;
+}
+
+.arrow {
+  margin: 0 15px;
 }
